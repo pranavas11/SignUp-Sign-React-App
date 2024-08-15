@@ -1,0 +1,28 @@
+.home-container {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    background-color: #f9f9f9; /* Light background color */
+    align-items: center; /* Center the content horizontally */
+    justify-content: flex-start; /* Align content to the top */
+    padding-top: 50px; /* Add some space at the top */
+}
+
+.home-content {
+    text-align: center; /* Center the text */
+    color: #333; /* Dark text color */
+}
+
+.home-content p {
+    font-size: 24px;
+    color: #313bc0;
+    margin-top: 250px;
+    margin-bottom: 20px; /* Add space between the text and the image */
+}
+
+.welcome-gif {
+    max-width: 100%; /* Ensure the image scales correctly */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
